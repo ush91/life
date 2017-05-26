@@ -1,3 +1,6 @@
+#ifndef WINDOW_MANAGER_H
+#define WINDOW_MANAGER_H
+
 #include <OpenGL/gl.h>
 
 class WindowManager {
@@ -20,3 +23,5 @@ public:
     bool hasLeft();
     bool hasBottom();
 };
+
+#endif
